@@ -161,7 +161,98 @@
    .input-box .field .item {
     width: 70%;
     gap:1rem;
-   }
-   
-   
+   } 
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1rem;
+    height: auto;
+  }
+
+  .contact-logo {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .contact-logo a img {
+    max-width: 50px;
+  }
+
+  .contact-logo a h2 {
+    font-size: 1rem;
+    margin-left: 0.5rem;
+  }
+
+  .contact {
+    width: 100%;
+    border-radius: 6px;
+    padding: 1rem;
+  }
+
+  .contact h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .contact form {
+    width: 100%;
+    padding: 0;
+  }
+
+  .input-box {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .input-box .input-field {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .field .item {
+    padding: 14px;
+    font-size: 14px;
+    margin: 8px 0;
+  }
+
+  .textarea-field .item {
+    height: 100px;
+  }
+
+  form button {
+    width: 100%;
+    padding: 14px;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .contact_text {
+    margin-top: 1rem;
+  }
+
+  .contact_items {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+
+  .contact_items i {
+    font-size: 24px;
+    margin-bottom: 0.5rem;
+  }
+
+  .contact_details h3 {
+    font-size: 1rem;
+  }
+
+  .contact_details p {
+    font-size: 0.9rem;
+  }
 }
